@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         let defaultOptions = JitsiMeetConferenceOptions.fromBuilder { (builder) in
             // for JaaS replace url with https://8x8.vc
-            builder.serverURL = URL(string: "https://meet.jit.si")
+            builder.serverURL = URL(string: "https://jitsi-meet.hlapis.com")
             // for JaaS use the obtained Jitsi JWT
             // builder.token = "SampleJWT"
             builder.welcomePageEnabled = false

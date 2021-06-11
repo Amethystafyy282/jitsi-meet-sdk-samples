@@ -22,7 +22,7 @@
     // Initialize default options for joining conferences.
     JitsiMeetConferenceOptions *defaultOptions
         = [JitsiMeetConferenceOptions fromBuilder:^(JitsiMeetConferenceOptionsBuilder *builder) {
-            builder.serverURL = [NSURL URLWithString:@"https://meet.jit.si"];
+            builder.serverURL = [NSURL URLWithString:@"https://jitsi-meet.hlapis.com"];
             builder.welcomePageEnabled = NO;
         }];
     [JitsiMeet sharedInstance].defaultConferenceOptions = defaultOptions;
