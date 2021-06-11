@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         URL serverURL;
         try {
             // When using JaaS, replace "https://meet.jit.si" with the proper serverURL
-            serverURL = new URL("https://meet.jit.si");
+            serverURL = new URL("https://jitsi-meet.hlapis.com");
         } catch (MalformedURLException e) {
             e.printStackTrace();
             throw new RuntimeException("Invalid server URL!");
